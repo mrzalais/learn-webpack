@@ -8,7 +8,8 @@ module.exports = merge(
     mode: "development",
     output: {
       filename: "main.js",
-      path: path.resolve(__dirname, "dist")
+      path: path.resolve(__dirname, "dist"),
+      assetModuleFilename: "images/[name][ext]"
     }
   }
 );
